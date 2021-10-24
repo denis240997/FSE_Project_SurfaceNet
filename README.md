@@ -7,15 +7,17 @@ M. Ji, J. Gall, H. Zheng, Y. Liu, and L. Fang. [SurfaceNet: An End-to-end 3D Neu
 
 The [poster pdf](https://www.researchgate.net/publication/321126305_ICCV2017_SurfaceNet_poster) is also available.
 
-![SurfaceNet experiment results](figures/experiment.png?raw=true "SurfaceNet experiment results")
-![SurfaceNet pipeline](figures/pipeline.png?raw=true "SurfaceNet pipeline")
+![SurfaceNet experiment results](app/figures/experiment.png?raw=true "SurfaceNet experiment results")
+![SurfaceNet pipeline](app/figures/pipeline.png?raw=true "SurfaceNet pipeline")
 
 ## How to run
 
 ~~1. install [Nvidia driver 375 + cuda 8.0 + cudnn v5.1](https://github.com/mjiUST/driver_cuda_cudnn)~~
 
-1.1 Build the image (in the project directory) `docker build -t fse_project .`. It will take a lot of time!!!
-1.2 Run the container `docker run -it fse_project`
+1.1 Build the image (in the project directory) by: `docker build -t fse_project .`   It will take a lot of time!!!
+
+1.2 Run the container by: `docker run -it fse_project`
+
 1.3 Try to fallow subsequent instructions.......
 
 2. install the conda environment by: `bash installEnv.sh`
