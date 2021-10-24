@@ -12,7 +12,12 @@ The [poster pdf](https://www.researchgate.net/publication/321126305_ICCV2017_Sur
 
 ## How to run
 
-1. install [Nvidia driver 375 + cuda 8.0 + cudnn v5.1](https://github.com/mjiUST/driver_cuda_cudnn)
+~~1. install [Nvidia driver 375 + cuda 8.0 + cudnn v5.1](https://github.com/mjiUST/driver_cuda_cudnn)~~
+
+1.1 Build the image (in the project directory) `docker build -t fse_project .`. It will take a lot of time!!!
+1.2 Run the container `docker run -it fse_project`
+1.3 Try to fallow subsequent instructions.......
+
 2. install the conda environment by: `bash installEnv.sh`
     * DON'T WORRY, conda will generate an isolated environment for SurfaceNet with python2.7, anaconda, theano, ... etc. That means all your libraries / packeges' version will not be affacted, at the same time the `~/.bashrc` file will not be changed.
     * before you run, PLEASE change the CUDA/CUDNN path in the files: 

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+docker container prune -y
+docker image rm fse_project
+docker build -t fse_project .
