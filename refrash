@@ -1,5 +1,4 @@
 #!/bin/bash
 
-docker container prune -y
-docker image rm fse_project
-docker build -t fse_project .
+docker container prune -f
+docker build --no-cache -t fse_project .
