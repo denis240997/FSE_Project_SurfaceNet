@@ -18,7 +18,7 @@ The [poster pdf](https://www.researchgate.net/publication/321126305_ICCV2017_Sur
 
 1.2 Run the container by: `docker run -it fse_project`
 
-1.3 Try to fallow subsequent instructions.......
+1.3 Try to follow subsequent instructions.......
 
 2. install the conda environment by: `bash installEnv.sh`
     * DON'T WORRY, conda will generate an isolated environment for SurfaceNet with python2.7, anaconda, theano, ... etc. That means all your libraries / packeges' version will not be affacted, at the same time the `~/.bashrc` file will not be changed.
