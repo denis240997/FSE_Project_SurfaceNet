@@ -27,12 +27,16 @@ The [poster pdf](https://www.researchgate.net/publication/321126305_ICCV2017_Sur
         - `./config/activate-cudnn.sh` change the 1st line to your cudnn path, e.g.: `export CUDNN_ROOT=/home/<your-user-name>/libs/cudnn`
 3. Download the network models to the folder "./inputs/SurfaceNet_models" from the Dropbox [folder](https://www.dropbox.com/sh/8xs0u57ikj4qfvr/AADRQFQyJfG3WfH7ZvpcWmMKa?dl=0). To do this, run in terminal: `bash download.sh`
 4. If the conda environment has been installed, one can activate it by: `. activate SurfaceNet`; deactivate it by: `. deactivate`.
-5. In terminal run:
-    * `python reconstruction.py` for evaluation and reconstruction of model
+5. Run in terminal `python prepare.py` and set mode `reconstruct_model` or `train_model` (not available now).
+6. In terminal run:
     * `python train.py` for training of model
+    * `python reconstruction.py` for evaluation and reconstruction of model
 
-    This will run scripts with default parameters specified in `utils/params.py`
+    This will run scripts with default parameters specified in `params.py`
 
+## Further developing
+
+Implement the model training startup.
 
 ## Evaluation results
 
