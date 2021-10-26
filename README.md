@@ -1,7 +1,8 @@
-# News
-- [SurfaceNet+](https://github.com/mjiUST/SurfaceNet-plus) is available in 2020 TPAMI!
+# About
 
-# SurfaceNet
+This repo contains a refactoring of the project as part of a [SurfaceNet project](https://github.com/mjiUST/SurfaceNet) for the Foundation to Software Engineering course at Skoltech in the fall of 2021.
+
+## SurfaceNet
 
 M. Ji, J. Gall, H. Zheng, Y. Liu, and L. Fang. [SurfaceNet: An End-to-end 3D Neural Network for Multiview Stereopsis](https://www.researchgate.net/publication/318920947_SurfaceNet_An_End-to-end_3D_Neural_Network_for_Multiview_Stereopsis). ICCV, 2017
 
@@ -11,8 +12,6 @@ The [poster pdf](https://www.researchgate.net/publication/321126305_ICCV2017_Sur
 ![SurfaceNet pipeline](app/figures/pipeline.png?raw=true "SurfaceNet pipeline")
 
 ## How to run
-
-~~1. install [Nvidia driver 375 + cuda 8.0 + cudnn v5.1](https://github.com/mjiUST/driver_cuda_cudnn)~~
 
 1.1 Build the image (in the project directory) by: `docker build -t fse_project .`   It will take a lot of time!!!
 
