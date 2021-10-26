@@ -10,7 +10,10 @@ import adapthresh
 
 if __name__ == "__main__":
 
-    print "\ncurrent mode *** train model ***\n"
-    # main_train.train() # pass
-    pass
-
+    print "\ncurrent mode *** {} ***\n".format(params.whatUWant)
+    
+    if params.whatUWant is 'reconstruct_model':
+        print('This is a script for training a model. For evaluation and reconstruction, run reconstruction.py')
+    else:
+        # main_train.train() # pass
+        pass

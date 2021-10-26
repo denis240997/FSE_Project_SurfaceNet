@@ -25,9 +25,12 @@ The [poster pdf](https://www.researchgate.net/publication/321126305_ICCV2017_Sur
     * before you run, PLEASE change the CUDA/CUDNN path in the files: 
         - `./config/activate-cuda.sh` change the 1st line to your cuda path, e.g.: `export CUDA_ROOT=/usr/local/cuda`
         - `./config/activate-cudnn.sh` change the 1st line to your cudnn path, e.g.: `export CUDNN_ROOT=/home/<your-user-name>/libs/cudnn`
-3. download the network model to the folder "./inputs/SurfaceNet_models" from the Dropbox [folder](https://www.dropbox.com/sh/8xs0u57ikj4qfvr/AADRQFQyJfG3WfH7ZvpcWmMKa?dl=0)
+3. download the network models to the folder "./inputs/SurfaceNet_models" from the Dropbox [folder](https://www.dropbox.com/sh/8xs0u57ikj4qfvr/AADRQFQyJfG3WfH7ZvpcWmMKa?dl=0). To do this, run in terminal: `bash download.sh`
 4. if the conda environment has been installed, one can activate it by: `. activate SurfaceNet`; deactivate it by: `. deactivate`.
-5. in terminal run: `python main.py` 
+5. in terminal run:
+    `python reconstruction.py` for evaluation and reconstruction of model
+    `python train.py` for training of model
+    
 
 ## Evaluation results
 
