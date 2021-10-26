@@ -30,7 +30,8 @@ The [poster pdf](https://www.researchgate.net/publication/321126305_ICCV2017_Sur
 5. In terminal run:
     * `python reconstruction.py` for evaluation and reconstruction of model
     * `python train.py` for training of model
-    
+This will run scripts with default parameters specified in `utils/params.py`
+
 
 ## Evaluation results
 
