@@ -1,6 +1,6 @@
 # About
 
-This repo contains a refactoring of the [SurfaceNet project](https://github.com/mjiUST/SurfaceNet) project as part of a course project for the Foundation to Software Engineering course at Skoltech in the fall of 2021.
+This repo contains a refactoring of the [SurfaceNet project](https://github.com/mjiUST/SurfaceNet) as part of a course project for the Foundation to Software Engineering course at Skoltech in the fall of 2021.
 
 ## SurfaceNet
 
@@ -36,7 +36,13 @@ The [poster pdf](https://www.researchgate.net/publication/321126305_ICCV2017_Sur
 
 ## Further developing
 
-Implement the model training startup.
+For further development of the project, it is necessary:
+
+1. Rewrite the project modules in python3.
+
+2. Add the use of modern CUDA drivers, since the versions currently in use are outdated.
+
+3. Also, implement the model training startup.
 
 ## Evaluation results
 
