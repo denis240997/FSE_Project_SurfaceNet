@@ -3,8 +3,6 @@ import os
 import sys
 import math
 import scipy.io
-
-sys.path.append("./utils")
 import scene
 
 ## define the parameters that don't vary in the main function, such as the patch size and the cube size.
