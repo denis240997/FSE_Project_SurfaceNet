@@ -32,6 +32,7 @@ The [poster pdf](https://www.researchgate.net/publication/321126305_ICCV2017_Sur
     * `python reconstruction.py` for evaluation and reconstruction of model
 
     This will run scripts with default parameters specified in `params.py`
+7. For functionality testing run `test.py` located in `utils` directiry.
 
 ## Further developing
 
